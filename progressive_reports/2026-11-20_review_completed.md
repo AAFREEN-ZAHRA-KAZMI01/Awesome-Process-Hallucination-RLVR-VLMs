@@ -1,0 +1,2 @@
+# 2026-11-20: Review completed
+Citation searching (185 records: 18 already included, 115 excluded at title, 52 awaiting full text); screening agreement on 65 records (blind-subset kappa 0.51); 8-item quality assessment (58 High, 8 Medium); two-axis framework coding; sensitivity of six conclusions (C1 robust in all scenarios); pilot validation with 14 participants (S-CVI/Ave 0.50 overall, 0.67 trained subgroup).
