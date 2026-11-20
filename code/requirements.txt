@@ -1,0 +1,16 @@
+# Python 3.10+ on a GPU (Kaggle T4 / Colab T4 / A100). Versions used on Kaggle, 19-20 Nov 2026.
+trl>=0.21
+peft>=0.13
+transformers>=4.51
+accelerate
+bitsandbytes
+datasets
+qwen-vl-utils
+spacy            # + python -m spacy download en_core_web_sm  (MC-R1 dependency weights)
+scipy
+numpy
+pandas
+matplotlib
+pillow
+tabulate
+nbformat

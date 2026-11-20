@@ -1,0 +1,9 @@
+case,C,Q,A_text
+good_none,1.0,1.0,1.0
+good_count,1.0,1.0,1.0
+contradiction,0.0,1.0,0.0
+wrong_number,0.3,1.0,0.3
+empty_think,0.6,0.0,0.0
+copy_question,0.0,0.0,0.0
+repetitive,0.7,0.11,0.07777777777777778
+no_format,0.0,0.0,0.0

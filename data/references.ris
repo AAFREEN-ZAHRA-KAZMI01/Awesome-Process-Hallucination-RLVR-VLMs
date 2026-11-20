@@ -1,0 +1,782 @@
+TY  - GEN
+ID  - S01
+AU  - Yantao Li
+AU  - Qiang Hui
+AU  - Chenyang Yan
+AU  - Kanzhi Cheng
+TI  - PaLMR: Towards Faithful Visual Reasoning via Multimodal Process Alignment
+PY  - 2026
+UR  - https://arxiv.org/abs/2603.06652
+N1  - arXiv:2603.06652; CVPR 2026 Findings, IEEE/CVF proceedings, pp. 6114-6124, doi:10.1109/CVPRF71909.2026.00587 (checked on IEEE Xplore)
+ER  - 
+
+TY  - GEN
+ID  - S02
+AU  - Yingqian Min
+AU  - Kun Zhou
+AU  - Yifan Li
+AU  - Yuhuan Wu
+TI  - Improving Vision-language Models with Perception-centric Process Reward Models
+PY  - 2026
+UR  - https://arxiv.org/abs/2604.24583
+N1  - arXiv:2604.24583; CVPR 2026, pp. 33099-33109 (DBLP lists CVPR 2026)
+ER  - 
+
+TY  - GEN
+ID  - S03
+AU  - Jiayue Cao
+AU  - Zhicong Lu
+AU  - Xuehan Sun
+AU  - Wei Jia
+TI  - CORA: Analyzing and bridging thinking-answer gap in Multimodal RLVR via Consistency-Oriented Reasoning Alignment
+PY  - 2026
+UR  - https://arxiv.org/abs/2606.14691
+N1  - arXiv:2606.14691; arXiv preprint (submitted to EMNLP 2026)
+ER  - 
+
+TY  - GEN
+ID  - S04
+AU  - Hoang Anh Just
+AU  - Yifei Fan
+AU  - Handong Zhao
+AU  - Jiuxiang Gu
+TI  - More Than the Final Answer: Improving Visual Extraction and Logical Consistency in Vision-Language Models
+PY  - 2025
+UR  - https://arxiv.org/abs/2512.12487
+N1  - arXiv:2512.12487; arXiv preprint
+ER  - 
+
+TY  - GEN
+ID  - S05
+AU  - Zhangyuan Yu
+AU  - Wanran Sun
+AU  - Guangjing Yang
+AU  - Xiaohu Wu
+TI  - CFPO: Counterfactual Policy Optimization for Multimodal Reasoning
+PY  - 2026
+UR  - https://arxiv.org/abs/2606.23206
+N1  - arXiv:2606.23206; arXiv preprint (author-stated: ICML 2026)
+ER  - 
+
+TY  - GEN
+ID  - S06
+AU  - Peizheng Guo
+AU  - Jingyao Wang
+AU  - Wenwen Qiang
+AU  - Jiahuan Zhou
+TI  - COPO: Causal-Oriented Policy Optimization for Hallucinations of MLLMs
+PY  - 2025
+UR  - https://arxiv.org/abs/2508.04182
+N1  - arXiv:2508.04182; arXiv preprint
+ER  - 
+
+TY  - GEN
+ID  - S07
+AU  - Ruina Hu
+AU  - Chen Wang
+AU  - Lai Wei
+AU  - Jionghao Bai
+TI  - Attend to Evidence: Evidence-Anchored Spatial Attention Supervision for Multimodal RLVR
+PY  - 2026
+UR  - https://arxiv.org/abs/2605.30912
+N1  - arXiv:2605.30912; Findings of EMNLP 2026, pp. 4295-4313, doi:10.18653/2026.findings-emnlp.204 (ACL Anthology)
+ER  - 
+
+TY  - GEN
+ID  - S08
+AU  - Changyuan Tian
+AU  - Zhicong Lu
+AU  - Huaxing Liu
+AU  - Xiang Wang
+TI  - Faithful-MR1: Faithful Multimodal Reasoning via Anchoring and Reinforcing Visual Attention
+PY  - 2026
+UR  - https://arxiv.org/abs/2605.22072
+N1  - arXiv:2605.22072; arXiv preprint
+ER  - 
+
+TY  - GEN
+ID  - S09
+AU  - Shulin Tian
+AU  - Minglun Li
+AU  - Yuhao Dong
+AU  - Hao Ding
+TI  - V-Rubrics: Visual Faithfulness via Rubric-Based Reinforcement Learning
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.25580
+N1  - arXiv:2608.25580; EMNLP 2026 main, pp. 35524-35543, doi:10.18653/2026.emnlp-main.1558 (ACL Anthology)
+ER  - 
+
+TY  - GEN
+ID  - S10
+AU  - Zixiu Ding
+AU  - Zilin Zhao
+AU  - Yingjie He
+AU  - Xinlang Kang
+TI  - SAVOR: Self-Aware Visual Grounding via Confidence-Calibrated Reinforcement Learning for Multimodal Hallucination Mitigation
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.16601
+N1  - arXiv:2609.16601; arXiv preprint (author-stated: ICONIP 2026)
+ER  - 
+
+TY  - GEN
+ID  - S11
+AU  - Yingxuan Zhuang
+AU  - Miao Pan
+AU  - Wangjie Gan
+AU  - Jingxiao Yang
+TI  - DEEPO: Dual-Entropy Enhanced Policy Optimization for Hallucination in MLLMs
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.28570
+N1  - arXiv:2609.28570; arXiv preprint
+ER  - 
+
+TY  - GEN
+ID  - S12
+AU  - Xi Xiao
+AU  - Chen Liu
+AU  - Chih-Ting Liao
+AU  - Yunbei Zhang
+TI  - Staying VIGILant: Mitigating Visual Laziness via Counterfactual Visual Alignment in MLLMs
+PY  - 2026
+UR  - https://arxiv.org/abs/2606.26387
+N1  - arXiv:2606.26387; Springer LNCS, pp. 287-305, doi:10.1007/978-3-032-37232-1_16 (OpenAlex; arXiv comment says ECCV 2026)
+ER  - 
+
+TY  - GEN
+ID  - S13
+AU  - Wan Xu
+AU  - Yuanfan Guo
+AU  - Kevin Han
+AU  - LaLa Chen
+TI  - DRT: Dense Reasoning Trace for Efficient and Grounded Multimodal Reasoning
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.21675
+N1  - arXiv:2609.21675; arXiv preprint
+ER  - 
+
+TY  - GEN
+ID  - S14
+AU  - Zhang, Yin
+AU  - Zhao, Jiaxuan
+AU  - Wu, Zonghan
+AU  - Li, Zengxiang
+AU  - Fang, Junfeng
+AU  - Wang, Kun
+AU  - Wen, Qingsong
+AU  - Shao, Yilei
+TI  - MIRL: Mutual Information-Guided Reinforcement Learning for Vision-Language Models
+PY  - 2026
+UR  - https://arxiv.org/abs/2605.01520
+N1  - arXiv:2605.01520; arXiv preprint
+ER  - 
+
+TY  - GEN
+ID  - S15
+AU  - Wang, Zengbin
+AU  - Xiong, Feng
+AU  - Lin, Liang
+AU  - Hu, Xuecai
+AU  - Wang, Yong
+AU  - Wang, Yanlin
+AU  - Zhang, Man
+AU  - Chu, Xiangxiang
+TI  - Visually-Guided Policy Optimization for Multimodal Reasoning
+PY  - 2026
+UR  - https://arxiv.org/abs/2604.09349
+N1  - arXiv:2604.09349; ACL 2026 long papers, pp. 6646-6664, doi:10.18653/v1/2026.acl-long.301 (ACL Anthology)
+ER  - 
+
+TY  - GEN
+ID  - S16
+AU  - Zhao, Rosie
+AU  - Shah, Anshul
+AU  - Zhu, Xiaoyu
+AU  - Deng, Xinke
+AU  - Jiang, Zhongyu
+AU  - Yang, Yang
+AU  - Liebelt, Joerg
+AU  - Mondal, Arnab
+TI  - On Robustness and Chain-of-Thought Consistency of RL-Finetuned VLMs
+PY  - 2026
+UR  - https://arxiv.org/abs/2602.12506
+N1  - arXiv:2602.12506; arXiv preprint (author-stated: ICML 2026)
+ER  - 
+
+TY  - GEN
+ID  - S17
+AU  - Tong Xiao
+AU  - Xin Xu
+AU  - Zhenya Huang
+AU  - Hongyu Gao
+TI  - Perception-R1: Advancing Multimodal Reasoning Capabilities of MLLMs via Visual Perception Reward
+PY  - 2025
+UR  - https://arxiv.org/abs/2506.07218
+N1  - arXiv:2506.07218; arXiv preprint
+ER  - 
+
+TY  - GEN
+ID  - S18
+AU  - Zhenhailong Wang
+AU  - Xuehang Guo
+AU  - Sofia Stoica
+AU  - Haiyang Xu
+TI  - Perception-Aware Policy Optimization for Multimodal Reasoning
+PY  - 2025
+UR  - https://arxiv.org/abs/2507.06448
+N1  - arXiv:2507.06448; arXiv preprint
+ER  - 
+
+TY  - GEN
+ID  - S19
+AU  - Wenxuan Huang
+AU  - Bohan Jia
+AU  - Zijie Zhai
+AU  - Shaosheng Cao
+TI  - Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models
+PY  - 2025
+UR  - https://arxiv.org/abs/2503.06749
+N1  - arXiv:2503.06749; arXiv preprint (author-stated: ICLR 2026)
+ER  - 
+
+TY  - GEN
+ID  - S20
+AU  - Ziyu Liu
+AU  - Zeyi Sun
+AU  - Yuhang Zang
+AU  - Xiaoyi Dong
+TI  - Visual-RFT: Visual Reinforcement Fine-Tuning
+PY  - 2025
+UR  - https://arxiv.org/abs/2503.01785
+N1  - arXiv:2503.01785; ICCV 2025, pp. 2034-2044, doi:10.1109/ICCV51701.2025.00197 (IEEE Xplore)
+ER  - 
+
+TY  - GEN
+ID  - S21
+AU  - Xiyao Wang
+AU  - Zhengyuan Yang
+AU  - Chao Feng
+AU  - Hongjin Lu
+TI  - SoTA with Less: MCTS-Guided Sample Selection for Data-Efficient Visual Reasoning Self-Improvement
+PY  - 2025
+UR  - https://arxiv.org/abs/2504.07934
+N1  - arXiv:2504.07934; NeurIPS 2025, doi:10.52202/085713-3964 (OpenAlex published-version record)
+ER  - 
+
+TY  - GEN
+ID  - S22
+AU  - Weiyun Wang
+AU  - Zhangwei Gao
+AU  - Lianjie Chen
+AU  - Zhe Chen
+TI  - VisualPRM: An Effective Process Reward Model for Multimodal Reasoning
+PY  - 2025
+UR  - https://arxiv.org/abs/2503.10291
+N1  - arXiv:2503.10291; arXiv preprint
+ER  - 
+
+TY  - GEN
+ID  - S23
+AU  - Tianrui Guan
+AU  - Fuxiao Liu
+AU  - Xiyang Wu
+AU  - Ruiqi Xian
+TI  - HallusionBench: An Advanced Diagnostic Suite for Entangled Language Hallucination and Visual Illusion in Large Vision-Language Models
+PY  - 2023
+UR  - https://arxiv.org/abs/2310.14566
+N1  - arXiv:2310.14566; CVPR 2024, doi:10.1109/CVPR52733.2024.01363 (OpenAlex published-version record)
+ER  - 
+
+TY  - GEN
+ID  - S24
+AU  - Zechen Bai
+AU  - Pichao Wang
+AU  - Tianjun Xiao
+AU  - Tong He
+TI  - Hallucination of Multimodal Large Language Models: A Survey
+PY  - 2024
+UR  - https://arxiv.org/abs/2404.18930
+N1  - arXiv:2404.18930; arXiv preprint
+ER  - 
+
+TY  - GEN
+ID  - S25
+AU  - Zhiyuan Chen
+AU  - Yuecong Min
+AU  - Jie Zhang
+AU  - Bei Yan
+TI  - A Survey of Multimodal Hallucination Evaluation and Detection
+PY  - 2025
+UR  - https://arxiv.org/abs/2507.19024
+N1  - arXiv:2507.19024; International Journal of Computer Vision, doi:10.1007/s11263-026-02756-9 (SpringerLink listing and OpenAlex)
+ER  - 
+
+
+TY  - JOUR
+AU  - Nguyen, Thanh
+AU  - Yoon, Hee Suk
+AU  - Luu, Tung M.
+AU  - Yoon, Eunseop
+AU  - Yoo, Chang D.
+TI  - Metric-Driven Reinforcement Learning for Object Hallucination Reduction in LVLM-Based Image Captioning
+JO  - IEEE Access
+VL  - 14
+SP  - 125177
+EP  - 125195
+PY  - 2026
+DO  - 10.1109/ACCESS.2026.3723028
+ER  - 
+TY  - GEN
+ID  - S27
+AU  - Yubo Jiang
+AU  - Yitong An
+AU  - Xin Yang
+AU  - Abudukelimu Wuerkaixi
+TI  - V-tableR1: Process-Supervised Multimodal Table Reasoning with Critic-Guided Policy Optimization
+PY  - 2026
+UR  - https://arxiv.org/abs/2604.20755
+N1  - arXiv:2604.20755; arXiv preprint
+ER  - 
+
+TY  - GEN
+ID  - S28
+AU  - Yuanze Hu
+AU  - Zhichao Yang
+AU  - Junwei Jing
+AU  - Xin Yang
+TI  - Where Do Long Captions Fail? Position-Aware Diagnosis and Reinforcement Learning for Detailed Image Captioning
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.31111
+N1  - arXiv:2610.31111; arXiv preprint (author-stated: NeurIPS 2026)
+ER  - 
+
+TY  - GEN
+ID  - S29
+AU  - Xingyu Lu
+AU  - Jinpeng Wang
+AU  - Yi-Fan Zhang
+AU  - Yankai Yang
+TI  - VCap: Hypergeometric Rewards for Weak-to-Strong Visual Captioning
+PY  - 2026
+UR  - https://arxiv.org/abs/2605.28023
+N1  - arXiv:2605.28023; arXiv preprint
+ER  - 
+
+TY  - GEN
+ID  - S30
+AU  - Zehao Wang
+AU  - Yihan Zeng
+AU  - Zidong Gong
+AU  - Yuanfan Guo
+TI  - AnE: Pushing the Reasoning Frontier of Multimodal LLMs via Anchor Evolution
+PY  - 2026
+UR  - https://arxiv.org/abs/2605.25571
+N1  - arXiv:2605.25571; Springer LNCS, doi:10.1007/978-3-032-37383-0_24 (OpenAlex; volume name not confirmed)
+ER  - 
+
+TY  - GEN
+ID  - S31
+AU  - Yangfu Li
+AU  - Yuning Gong
+AU  - Hongjian Zhan
+AU  - Teng Li
+TI  - Perceptual Flow Network for Visually Grounded Reasoning
+PY  - 2026
+UR  - https://arxiv.org/abs/2605.02730
+N1  - arXiv:2605.02730; arXiv preprint (author-stated: ICML 2026)
+ER  - 
+
+TY  - GEN
+ID  - S32
+AU  - Wenyi Xiao
+AU  - Xinchi Xu
+AU  - Leilei Gan
+TI  - VL-Calibration: Decoupled Confidence Calibration for Large Vision-Language Models Reasoning
+PY  - 2026
+UR  - https://arxiv.org/abs/2604.09529
+N1  - arXiv:2604.09529; ACL 2026 long papers, pp. 44791-44815, doi:10.18653/v1/2026.acl-long.2074 (ACL Anthology)
+ER  - 
+
+TY  - GEN
+ID  - S33
+AU  - Zeru Shi
+AU  - Kai Mei
+AU  - Yihao Quan
+AU  - Dimitris N. Metaxas
+TI  - Improving Visual Reasoning with Iterative Evidence Refinement
+PY  - 2026
+UR  - https://arxiv.org/abs/2603.14117
+N1  - arXiv:2603.14117; arXiv preprint
+ER  - 
+
+TY  - GEN
+ID  - S34
+AU  - Xingjian Diao
+AU  - Zheyuan Liu
+AU  - Chunhui Zhang
+AU  - Weiyi Wu
+TI  - Addressing Overthinking in Large Vision-Language Models via Gated Perception-Reasoning Optimization
+PY  - 2026
+UR  - https://arxiv.org/abs/2601.04442
+N1  - arXiv:2601.04442; arXiv preprint (author-stated: ACL 2026)
+ER  - 
+
+TY  - GEN
+ID  - S35
+AU  - Ahmad Rezaei
+AU  - Mohsen Gholami
+AU  - Saeed Ranjbar Alvar
+AU  - Kevin Cannons
+TI  - CPPO: Contrastive Perception Policy Optimization for VLM Agents
+PY  - 2026
+UR  - https://arxiv.org/abs/2601.00501
+N1  - arXiv:2601.00501; arXiv preprint
+ER  - 
+
+TY  - GEN
+ID  - S36
+AU  - Shengyuan Ding
+AU  - Xinyu Fang
+AU  - Ziyu Liu
+AU  - Yuhang Zang
+TI  - ARM-Thinker: Reinforcing Multimodal Generative Reward Models with Agentic Tool Use and Visual Reasoning
+PY  - 2025
+UR  - https://arxiv.org/abs/2512.05111
+N1  - arXiv:2512.05111; arXiv preprint
+ER  - 
+
+TY  - GEN
+ID  - S37
+AU  - Xingming Long
+AU  - Jie Zhang
+AU  - Yuecong Min
+AU  - Shiguang Shan
+TI  - Beyond Saying Less: Fine-Grained Alignment for Informative and Faithful Vision-Language Models
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.35294
+N1  - arXiv:2609.35294; arXiv preprint
+ER  - 
+
+TY  - GEN
+ID  - S38
+AU  - Changjiang Jiang
+AU  - Qiannian Zhao
+AU  - Lei Xin
+AU  - Jinxiang Xie
+TI  - Think with Structured Grounding: Perceptual Reinforcement Learning for Chart and Visual-Tabular Understanding
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.22429
+N1  - arXiv:2608.22429; arXiv preprint
+ER  - 
+
+TY  - GEN
+ID  - S39
+AU  - Xuzheng Yang
+AU  - Jun Ling
+AU  - Tao Huang
+AU  - Caiyan Qin
+TI  - Teaching MLLMs to Say No: Generalized Referring Expression Comprehension via Refusal Calibrated GRPO
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.04698
+N1  - arXiv:2608.04698; arXiv preprint
+ER  - 
+
+TY  - GEN
+ID  - S40
+AU  - Xin Zou
+AU  - Haolin Deng
+AU  - Yibo Yan
+AU  - Shuliang Liu
+TI  - Consistency as Inductive Bias: Learning Cross-View Invariance for Robust Multimodal Reasoning
+PY  - 2026
+UR  - https://arxiv.org/abs/2606.29812
+N1  - arXiv:2606.29812; arXiv preprint
+ER  - 
+
+TY  - GEN
+ID  - S41
+AU  - Animesh Tripathy
+AU  - Aswanth Krishnan
+TI  - Iterative Visual Thinking and the Self-Correction Mirage in VLM Grounding
+PY  - 2026
+UR  - https://arxiv.org/abs/2606.13156
+N1  - arXiv:2606.13156; arXiv preprint
+ER  - 
+
+TY  - GEN
+ID  - S42
+AU  - Ya-Qi Yu
+AU  - Hao Wang
+AU  - Fangyu Hong
+AU  - Xiangyang Qu
+TI  - Reinforcement Learning with Robust Rubric Rewards
+PY  - 2026
+UR  - https://arxiv.org/abs/2605.30244
+N1  - arXiv:2605.30244; EMNLP 2026 main, pp. 58060-58078, doi:10.18653/2026.emnlp-main.2554 (ACL Anthology)
+ER  - 
+
+TY  - GEN
+ID  - S43
+AU  - Rui Liu
+AU  - Dian Yu
+AU  - Haolin Liu
+AU  - Yucheng Shi
+TI  - Reinforcing Multimodal Reasoning Against Visual Degradation
+PY  - 2026
+UR  - https://arxiv.org/abs/2605.09262
+N1  - arXiv:2605.09262; arXiv preprint
+ER  - 
+
+TY  - GEN
+ID  - S44
+AU  - Lihao Zheng
+AU  - Zhenwei Shao
+AU  - Yu Zhou
+AU  - Yan Yang
+TI  - CGC: Compositional Grounded Contrast for Fine-Grained Multi-Image Understanding
+PY  - 2026
+UR  - https://arxiv.org/abs/2604.22498
+N1  - arXiv:2604.22498; arXiv preprint
+ER  - 
+
+TY  - GEN
+ID  - S45
+AU  - Peng Gao
+AU  - Yujian Lee
+AU  - Yin Zhang
+TI  - Be Faithful When Response: Returning Fluent and Grounded Answers for Vision-Language Models Reinforcement Learning
+PY  - 2026
+UR  - https://arxiv.org/abs/2606.29984
+N1  - arXiv:2606.29984; preprint
+ER  - 
+
+TY  - GEN
+ID  - S46
+AU  - Honghao Chen
+AU  - Xingzhou Lou
+AU  - Xiaokun Feng
+TI  - Unveiling Chain of Step Reasoning for Vision-Language Models with Fine-grained Rewards
+PY  - 2025
+UR  - https://arxiv.org/abs/2509.19003
+N1  - arXiv:2509.19003; NeurIPS 2025, author-stated
+ER  - 
+
+TY  - GEN
+ID  - S47
+AU  - Tongkun Guan
+AU  - Zhibo Yang
+AU  - Mingkun Yang
+TI  - PerceptRL: Making Visual Perception Rewardable in MLLMs from Answers to Interactions
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.37471
+N1  - arXiv:2610.37471; preprint
+ER  - 
+
+TY  - GEN
+ID  - S48
+AU  - Xiyao Wang
+AU  - Zhengyuan Yang
+AU  - Chao Feng
+TI  - ViCrit: A Verifiable Reinforcement Learning Proxy Task for Visual Perception in VLMs
+PY  - 2025
+UR  - https://arxiv.org/abs/2506.10128
+N1  - arXiv:2506.10128; preprint
+ER  - 
+
+TY  - GEN
+ID  - S49
+AU  - Feiding
+AU  - Yongkang Zhang
+AU  - Yuhao Liao
+TI  - Difference Feedback: Generating Multimodal Process-Level Supervision for VLM Reinforcement Learning
+PY  - 2026
+UR  - https://arxiv.org/abs/2603.27482
+N1  - arXiv:2603.27482; preprint
+ER  - 
+
+TY  - GEN
+ID  - S50
+AU  - Ziwei Zheng
+AU  - Michael Yang
+AU  - Jack Hong
+TI  - DeepEyes: Incentivizing "Thinking with Images" via Reinforcement Learning
+PY  - 2025
+UR  - https://arxiv.org/abs/2505.14362
+N1  - arXiv:2505.14362; ICLR 2026, author-stated
+ER  - 
+
+TY  - GEN
+ID  - S51
+AU  - Miao Pan
+AU  - Wangjie Gan
+AU  - Jintao Chen
+TI  - Ground What You See: Hallucination-Resistant MLLMs via Caption Feedback, Diversity-Aware Sampling, and Conflict Regularization
+PY  - 2026
+UR  - https://arxiv.org/abs/2601.06224
+N1  - arXiv:2601.06224; AAAI-2026 poster, author-stated
+ER  - 
+
+TY  - GEN
+ID  - S52
+AU  - Yanbei Jiang
+AU  - Chao Lei
+AU  - Yihao Ding
+TI  - PROPA: Toward Process-level Optimization in Visual Reasoning via Reinforcement Learning
+PY  - 2025
+UR  - https://arxiv.org/abs/2511.10279
+N1  - arXiv:2511.10279; preprint
+ER  - 
+
+TY  - GEN
+ID  - S53
+AU  - Yihao Quan
+AU  - Zeru Shi
+AU  - Jinman Zhao
+TI  - Reinforcing Consistency in Video MLLMs with Structured Rewards
+PY  - 2026
+UR  - https://arxiv.org/abs/2604.01460
+N1  - arXiv:2604.01460; COLM 2026, author-stated
+ER  - 
+
+TY  - GEN
+ID  - S54
+AU  - Mengzhao Jia
+AU  - Zhihan Zhang
+AU  - Ignacio Cases
+TI  - AutoRubric: Rubric-Based Generative Rewards for Faithful Multimodal Reasoning
+PY  - 2025
+UR  - https://arxiv.org/abs/2510.14738
+N1  - arXiv:2510.14738; preprint
+ER  - 
+
+TY  - GEN
+ID  - S55
+AU  - Zile Zhou
+AU  - Huining Yuan
+AU  - Weichen Zhang
+TI  - SCOUT: Unlocking Enhanced Spatial Reasoning via Structured Chain-of-Thought and Multi-Objective Process Reward
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.12220
+N1  - arXiv:2608.12220; preprint
+ER  - 
+
+TY  - GEN
+ID  - S56
+AU  - Zhitao He
+AU  - Sandeep Polisetty
+AU  - Zhiyuan Fan
+TI  - MMBoundary: Advancing MLLM Knowledge Boundary Awareness through Reasoning Step Confidence Calibration
+PY  - 2025
+UR  - https://arxiv.org/abs/2505.23224
+N1  - arXiv:2505.23224; ACL 2025, author-stated
+ER  - 
+
+TY  - GEN
+ID  - S57
+AU  - Tianrun Xu
+AU  - Haoda Jing
+AU  - Ye Li
+TI  - DeFacto: Counterfactual Thinking with Images for Enforcing Evidence-Grounded and Faithful Reasoning
+PY  - 2025
+UR  - https://arxiv.org/abs/2509.20912
+N1  - arXiv:2509.20912; preprint
+ER  - 
+
+TY  - GEN
+ID  - S58
+AU  - Shizhan Gong
+AU  - Minda Hu
+AU  - Qiyuan Zhang
+TI  - Saliency-R1: Enforcing Interpretable and Faithful Vision-language Reasoning via Saliency-map Alignment Reward
+PY  - 2026
+UR  - https://arxiv.org/abs/2604.04500
+N1  - arXiv:2604.04500; CVPR 2026, author-stated
+ER  - 
+
+TY  - GEN
+ID  - S59
+AU  - Gengwei Zhang
+AU  - Jie Peng
+AU  - Zhen Tan
+TI  - Understanding the Role of Hallucination in Reinforcement Post-Training of Multimodal Reasoning Models
+PY  - 2026
+UR  - https://arxiv.org/abs/2604.03179
+N1  - arXiv:2604.03179; CVPR 2026, author-stated
+ER  - 
+
+TY  - GEN
+ID  - S60
+AU  - Xinhai Hou
+AU  - Shaoyuan Xu
+AU  - Manan Biyani
+TI  - CodeV: Code with Images for Faithful Visual Reasoning via Tool-Aware Policy Optimization
+PY  - 2025
+UR  - https://arxiv.org/abs/2511.19661
+N1  - arXiv:2511.19661; preprint
+ER  - 
+
+TY  - GEN
+ID  - S61
+AU  - Chi Zhang
+AU  - Haibo Qiu
+AU  - Qiming Zhang
+TI  - Perceptual-Evidence Anchored Reinforced Learning for Multimodal Reasoning
+PY  - 2025
+UR  - https://arxiv.org/abs/2511.18437
+N1  - arXiv:2511.18437; preprint
+ER  - 
+
+TY  - GEN
+ID  - S62
+AU  - Xu Chu
+AU  - Xinrong Chen
+AU  - Guanyu Wang
+TI  - Qwen Look Again: Guiding Vision-Language Reasoning Models to Re-attention Visual Information
+PY  - 2025
+UR  - https://arxiv.org/abs/2505.23558
+N1  - arXiv:2505.23558; preprint
+ER  - 
+
+TY  - GEN
+ID  - S63
+AU  - Changpeng Wang
+AU  - Haozhe Wang
+AU  - Xi Chen
+TI  - From Illusion to Intention: Visual Rationale Learning for Vision-Language Reasoning
+PY  - 2025
+UR  - https://arxiv.org/abs/2511.23031
+N1  - arXiv:2511.23031; preprint
+ER  - 
+
+TY  - GEN
+ID  - S64
+AU  - Tengda Guo
+AU  - Jie Leng
+AU  - Hanlei Li
+TI  - CAVE: A Structured Credit Assignment Approach for Fragmented Visual Evidence Reasoning
+PY  - 2026
+UR  - https://arxiv.org/abs/2605.16416
+N1  - arXiv:2605.16416; preprint
+ER  - 
+
+TY  - GEN
+ID  - S65
+AU  - Siqi Yang
+AU  - Zilve Gao
+AU  - Haibo Qiu
+TI  - Learning When to Look: A Disentangled Curriculum for Strategic Perception in Multimodal Reasoning
+PY  - 2025
+UR  - https://arxiv.org/abs/2512.17227
+N1  - arXiv:2512.17227; preprint
+ER  - 
+
+TY  - GEN
+ID  - S66
+AU  - Yunhao Gou
+AU  - Kai Chen
+AU  - Zhili Liu
+TI  - Reasoning-Aligned Perception Decoupling for Scalable Multi-modal Reasoning
+PY  - 2025
+UR  - https://arxiv.org/abs/2506.04559
+N1  - arXiv:2506.04559; ICLR 2026, author-stated
+ER  - 
+

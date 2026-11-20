@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this collection or the review, please cite it."
+title: "Process Hallucination in RL-Trained Vision-Language Models: A Systematic Review and a Judge-Free Consistency Reward"
+authors:
+  - family-names: Kazmi
+    given-names: Aafreen Zahra
+    affiliation: FAST-NUCES
+year: 2026
+repository-code: "https://github.com/<your-username>/Awesome-Process-Hallucination-RLVR-VLMs"
+license: MIT

@@ -1,0 +1,8 @@
+scenario,n,mean_quality_pct,code_share,median_year,top_family,share_judge/model-based,share_region/rationale annotation,share_rule-based/objective,share_calibration/test-time
+S0 baseline (all 66),66,84.5,37.9,2026.0,judge/model-based,48.5,27.3,15.2,9.1
+S1 drop arXiv-sourced studies,26,87.0,53.8,2025.0,judge/model-based,42.3,38.5,15.4,3.8
+S2 drop OpenAlex-sourced studies,44,83.5,29.5,2026.0,judge/model-based,54.50000000000001,20.5,13.600000000000001,11.4
+S3 peer-reviewed verified only,9,88.9,44.4,2026.0,rule-based/objective,33.300000000000004,22.2,33.300000000000004,11.1
+S4 QA threshold >= 75%,58,86.8,43.1,2026.0,judge/model-based,50.0,25.900000000000002,15.5,8.6
+S5 QA threshold >= 88%,38,91.6,60.5,2026.0,judge/model-based,55.300000000000004,23.7,13.200000000000001,7.9
+S6 exclude provisional S45-S66,44,83.5,29.5,2026.0,judge/model-based,54.50000000000001,20.5,13.600000000000001,11.4
