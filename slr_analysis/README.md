@@ -22,7 +22,7 @@
 | `instruments/pilot_questionnaire.pdf` | Printable questionnaire and consent form |
 | `instruments/Consent_form.docx` | Stand-alone informed-consent form (for interviews or offline responses) |
 | `scripts/` | `add_fields.py` (codes the five extra extraction fields), `mcr1_backward.py` (base-paper backward snowballing log), `pilot.py` (pilot CVI and figure) |
-| `evidence/` | Add: SCImago screenshot of the base paper's journal (IEEE Transactions on Multimedia, Q1) |
+| `evidence/` | SCImago screenshot of the base paper's journal: IEEE Transactions on Multimedia, SJR 2025 = 1.989, Q1, #2 of 91 in Media Technology (`SCImago_IEEE_TMM_Q1.png`, captured 21 Nov 2026) |
 
 ## Screening agreement
 Results in `tables/kappa_results.csv` and `tables/fig_kappa_confusion.png`: 65 records, 87.7% agreement, kappa = 0.76 (3 classes), 0.78 binary (95% CI 0.60–0.91); blind subset (49) kappa = 0.51.
@@ -31,7 +31,7 @@ Results in `tables/kappa_results.csv` and `tables/fig_kappa_confusion.png`: 65 r
 `data/pilot_responses.csv`: 19 anonymised responses (E01–E19, 20–21 Nov 2026). Results in `tables/pilot_cvi.csv` and `figures/fig_pilot`: S-CVI/Ave (P1–P6) = 0.52 for all 19, 0.60 for the 12 who had trained a VLM/LLM; P6 and F (0.83) meet the 0.78 cut-off in that subgroup. Open answers coded in `data/pilot_open_coding.csv`.
 
 ## Still to add by the author
-* `evidence/`: SCImago screenshot of IEEE Transactions on Multimedia; plagiarism/AI report.
+* `evidence/`: plagiarism/AI report.
 
 ## Data and ethics
 The corpus consists of published papers. Pilot responses are anonymous (codes E01..), collected after an informed-consent item in the form; no names or e-mails are stored. AI assistance (drafting, LaTeX and code) is declared in the paper's Acknowledgment.
