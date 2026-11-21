@@ -1,0 +1,6 @@
+scenario,n_total,n_primary,C1 Reasoning × no-extra-model cell empty,C2 Judge-free methods exist (perception/answer),C3 Text-checking rewards need labels or a judge,C4 Cost reported by ≤ 10% of studies,C5 Faithfulness measured directly by a minority,C6 Evidence that accuracy gains can hide ungrounded reasoning
+S0 Baseline (all 66),66,63,0 studies,31 studies,16 text-checking,4/63,27/63,4 studies
+S1 Peer-reviewed venue only,14,12,0 studies,7 studies,4 text-checking,0/12,5/12,0 studies
+S2 Quality ≥ 75% (drop Medium),58,55,0 studies,27 studies,16 text-checking,4/55,24/55,3 studies
+S3 Without OpenAlex (drop S45–S66),44,41,0 studies,23 studies,7 text-checking,1/41,14/41,3 studies
+S4 Without known items (S21–S23),63,61,0 studies,30 studies,16 text-checking,4/61,27/61,4 studies

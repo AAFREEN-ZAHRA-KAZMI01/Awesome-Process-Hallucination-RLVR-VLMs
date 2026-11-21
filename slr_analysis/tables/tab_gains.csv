@@ -1,0 +1,13 @@
+study,family,lo,hi,vs,fi
+S11 DEEPO,"Answer, no extra model",4.0,4.0,RL baseline,0
+S19 Vision-R1,"Answer, no extra model",6.0,6.0,base model,0
+S21 ThinkLite-VL,"Answer, no extra model",7.0,7.0,base model,0
+S43 Degradation-RL,"Answer, no extra model",2.3,2.4,RL baseline,0
+S05 CFPO,"Perception, no extra model",3.17,6.25,RL baseline,1
+S44 CGC,"Perception, no extra model",2.9,2.9,base model,1
+S07 EASE,"Perception, labels",2.5,3.1,RL baseline,2
+S04 PeRL-VL,"Perception, external model",5.5,5.5,RL baseline,3
+S29 VCap,"Perception, external model",0.02,0.02,RL baseline,3
+S13 DRT,"Reasoning, labels",1.3,1.3,base model,4
+S42 RLR3,"Reasoning, external model",4.7,4.7,base model,5
+S49 Difference Feedback,"Reasoning, external model",3.0,3.0,RL baseline,5

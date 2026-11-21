@@ -1,0 +1,10 @@
+measure,value
+n,65
+percent agreement (3 classes),87.7%
+Cohen's kappa (3 classes),0.761
+Cohen's kappa (binary: uncertain = include),0.775
+binary kappa 95% bootstrap CI,"[0.601, 0.907]"
+blind subset n (rater had not seen these decisions),49
+blind subset percent agreement,83.7%
+blind subset kappa (3 classes),0.509
+blind subset kappa (binary),0.546

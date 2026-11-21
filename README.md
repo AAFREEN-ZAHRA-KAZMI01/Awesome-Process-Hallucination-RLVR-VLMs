@@ -1,11 +1,11 @@
 <div align="center">
 
 # Process Hallucination in RL-Trained Vision-Language Models
-### A systematic review of 66 studies, a curated paper list, and a judge-free, annotation-free consistency reward
+### A systematic review of 66 studies on reward design, with a curated, searchable paper list
 
 [![Papers](https://img.shields.io/badge/Papers-66-1f3b73)](#2--papers-by-reward-family)
 [![Screened](https://img.shields.io/badge/Screened-327_records-2a9d8f)](data/SLR_workbook_327_screened_66_included.xlsx)
-[![Report](https://img.shields.io/badge/Report-PDF-d62828)](docs/Systematic_Review_Process_Hallucination_RLVR_VLMs.pdf)
+[![Paper](https://img.shields.io/badge/Paper-IEEE_PDF-d62828)](docs/26I-7675_REPORT_MAI-1B.pdf)
 [![Site](https://img.shields.io/badge/Browse-searchable_table-e76f51)](index.html)
 [![License](https://img.shields.io/badge/License-MIT_%7C_CC_BY_4.0-8d99ae)](LICENSE)
 
@@ -13,8 +13,8 @@
 
 Reinforcement learning with verifiable rewards (RLVR) makes vision-language models (VLMs) answer correctly more often, but a correct
 final answer can sit on top of reasoning that describes things the image does not contain (**process hallucination**).
-This repository collects the work on that problem, organises it by the kind of reward signal it uses, and adds our own
-experiment: a lightweight reward that checks the written reasoning against the image without a judge model or human annotations.
+This repository collects the work on that problem, organises it by what each reward verifies and where its signal comes from,
+and provides the full, reproducible systematic review (paper, data and analysis).
 
 ## 🧭 Taxonomy: how the field fights process hallucination
 
@@ -22,17 +22,17 @@ experiment: a lightweight reward that checks the written reasoning against the i
 
 **Reading the diagram.** Every included study was assigned to the reward family it relies on. Almost half need a judge or a
 trained reward model; another quarter need region or rationale annotations. Rule-based checks are cheap but rarely look at the
-reasoning text itself, which is the gap our method targets.
+reasoning text itself: this is gap G1 of the review.
 
 ## 🆕 What's in this repo
 
 | Folder | Content |
 |---|---|
-| [`docs/`](docs) | Full systematic review report (PDF/DOCX), research proposal |
+| [`docs/`](docs) | **Final SLR paper** (`26I-7675_REPORT_MAI-1B.pdf`, IEEE format) and its Overleaf source; research proposal; earlier draft report |
+| [`slr_analysis/`](slr_analysis) | **Reproducible SLR analysis** (Track A submission): notebook, scripts, extraction form, screening/snowballing logs, kappa, pilot data and CVI, draw.io diagrams, questionnaire and consent form |
+| [`data/slr_step_sheets/`](data/slr_step_sheets) | One Excel workbook per SLR step (search, screening, kappa, snowballing, QA, extraction, bibliometrics, sensitivity, pilot) |
 | [`data/`](data) | Paper list (`papers.csv`, `papers.json`), screening and extraction workbook (327 records, 66 studies), BibTeX/RIS, sensitivity and keyword tables |
-| [`code/notebooks/`](code/notebooks) | Colab/Kaggle notebooks: GRPO training with our reward, MC-R1, PAPO and CFPO re-implementations, ablation, comparison |
 | [`code/bibliometrics/`](code/bibliometrics) | Bibliometric pipeline (trends, keyword network, LDA, sensitivity) and PRISMA figure script |
-| [`results/part1/`](results/part1) | Raw results of the main experiment (registry, LaTeX tables, significance tests) |
 | [`assets/`](assets) | All figures (SVG/PNG) |
 | [`progressive_reports/`](progressive_reports) | Dated research log |
 | [`index.html`](index.html) | Searchable, filterable table of all 66 papers (open locally or via GitHub Pages) |
@@ -50,28 +50,44 @@ reasoning text itself, which is the gap our method targets.
   - [2.4. Rule-based / objective](#24-rule-based--objective-10-studies)
 - [3. Bibliometrics and sensitivity](#3--bibliometrics-and-sensitivity)
 - [4. Research gaps](#4--research-gaps)
-- [5. Our method and experiment](#5--our-method-and-experiment)
-- [6. Benchmarks used in the field](#6--benchmarks-used-in-the-field)
-- [7. Contributing](#7-contributing)
+- [5. Benchmarks used in the field](#5--benchmarks-used-in-the-field)
+- [6. Contributing](#6-contributing)
 
 ## 0. Citation
 If this collection or the review helps your work, please cite:
 ```bibtex
 @misc{kazmi2026processhallucination,
-  title  = {Process Hallucination in RL-Trained Vision-Language Models: A Systematic Review and a Judge-Free Consistency Reward},
+  title  = {Beyond the Final Answer: A Systematic Literature Review of Reward Design Against Process Hallucination in RL-Trained Vision-Language Models},
   author = {Kazmi, Aafreen Zahra},
   year   = {2026},
-  note   = {FAST-NUCES, MG 3010 Research Methodology. https://github.com/<your-username>/Awesome-Process-Hallucination-RLVR-VLMs}
+  note   = {FAST-NUCES, MG 3010 Research Methodology},
+  url    = {https://github.com/AAFREEN-ZAHRA-KAZMI01/Awesome-Process-Hallucination-RLVR-VLMs}
 }
 ```
+Base paper of the review: X. Chen, B. Zhang, X. Shi, J. Yu, "MC-R1: Mitigating Hallucinations via Reinforcement Learning With String-Match-Based Verifiable Rewards Under Modality Conflicts," *IEEE Transactions on Multimedia*, vol. 28, pp. 13829–13842, 2026, [doi:10.1109/TMM.2026.3726309](https://doi.org/10.1109/TMM.2026.3726309).
 
 ## 1. 📐 Review protocol
-- **Sources searched (8 Nov 2026):** arXiv, OpenAlex, SpringerLink, IEEE Xplore, ACM Digital Library; exact strings and hit counts in the workbook (`Search log` sheet).
-- **Flow (PRISMA 2020):** 1,416 records identified → 327 unique records screened → **66 studies included**.
-- **Quality assessment:** nine items (Q1–Q9) scored 1 / 0.5 / 0; 58 studies rated High, 8 Medium.
-- **Limitations stated openly:** single screener (no inter-rater agreement yet), many preprints (arXiv/OpenAlex), quality scores for S45–S66 provisional.
+The numbers below match the final paper ([`docs/26I-7675_REPORT_MAI-1B.pdf`](docs/26I-7675_REPORT_MAI-1B.pdf)); every one is reproduced by [`slr_analysis/26I-7675_MAI-1B.ipynb`](slr_analysis/26I-7675_MAI-1B.ipynb) (seed 42).
+- **Guidelines:** Tranfield, Denyer and Smart (2003); PRISMA 2020; PICOC; four review questions (RQ1–RQ4).
+- **Sources (8 Nov 2026):** IEEE Xplore (37), ACM DL (17), SpringerLink (615), OpenAlex (297), arXiv API (447), known items (3) = **1,416 records**.
+- **Selection:** 117 duplicates and 972 records below the relevance cut-off removed → 327 screened → 81 sought → 11 not retrieved (incl. the base paper) → 70 assessed → **66 included** (63 primary, 2 surveys, 1 benchmark).
+- **Snowballing (20 Nov 2026):** 185 records (base paper backward 61, five seeds backward 59, forward 65): 18 already included, 115 excluded, 52 awaiting full text.
+- **Agreement:** 65-record random sample, Cohen's κ = 0.76 (three classes) / 0.78 (binary); blind subset κ = 0.51. The second rater was a language model, as declared in the paper.
+- **Quality assessment:** eight items (QA1–QA8) scored 1 / 0.5 / 0, threshold 50% (no study fell below it).
+- **Extraction:** 27 fields per study ([`slr_analysis/data/extraction_form.xlsx`](slr_analysis/data/extraction_form.xlsx)).
+- **Pilot validation (20–21 Nov 2026):** 19 anonymous participants; S-CVI/Ave 0.52 (all) and 0.60 (the 12 who had trained a VLM/LLM); P6 and the framework reach I-CVI 0.83 in that subgroup; 14 of 19 favoured a judge-free, label-free consistency reward.
+- **Limitations stated openly:** one human screener plus an LLM second rater, 972 records removed by a relevance cut-off, 52 snowballing candidates not yet assessed, 52 of 66 studies are preprints, convenience pilot panel.
 
-<p align="center"><img src="assets/fig_prisma.svg" width="55%"></p>
+<p align="center"><img src="assets/fig_prisma_2020.png" width="85%"></p>
+
+### Framework used in the paper
+Studies are coded by **what the reward verifies** (final answer, perception, reasoning text) and **where the signal comes from** (no extra model, labelled evidence, external model). The empty cell is gap G1.
+
+<p align="center"><img src="assets/framework_3x3.png" width="80%"></p>
+
+> The reward families in Section 2 below are a browsing aid assigned by keyword rules; the paper's analysis uses the two-axis framework above.
+
+
 
 ## 2. 📚 Papers by reward family
 Columns: study ID in the review, paper (linked), first author, year, venue, method, own code released, quality score.
@@ -167,64 +183,34 @@ Full extraction (dataset, evaluation, findings, limitations) is in [`data/papers
 <img src="assets/fig3_keyword_freq.png" width="45%"> <img src="assets/fig4_lda_topics.png" width="45%">
 </p>
 
-**Sensitivity analysis.** The headline finding (judge/model-based rewards dominate) holds in every protocol variant except the 9 verified peer-reviewed studies.
+**Sensitivity analysis (paper, Fig. 13).** Conclusions C1–C6 re-tested under four protocol changes; all hold except C4 (cost), which disappears when only peer-reviewed studies are kept.
 
-| Scenario | Studies | Mean quality | Top reward family |
-|---|---|---|---|
-| S0 baseline (all 66) | 66 | 84.5% | judge/model-based |
-| S1 drop arXiv-sourced studies | 26 | 87.0% | judge/model-based |
-| S2 drop OpenAlex-sourced studies | 44 | 83.5% | judge/model-based |
-| S3 peer-reviewed verified only | 9 | 88.9% | rule-based/objective |
-| S4 QA threshold >= 75% | 58 | 86.8% | judge/model-based |
-| S5 QA threshold >= 88% | 38 | 91.6% | judge/model-based |
-| S6 exclude provisional S45-S66 | 44 | 83.5% | judge/model-based |
+| Scenario | Studies | C1 G1 cell empty | C3 text checks need labels/judge | C4 cost reported | C5 faithfulness measured |
+|---|---|---|---|---|---|
+| S0 baseline | 66 | 0 studies | 16 | 4/63 | 27/63 |
+| S1 peer-reviewed venue only | 14 | 0 studies | 4 | 0/12 | 5/12 |
+| S2 quality ≥ 75% | 58 | 0 studies | 16 | 4/55 | 24/55 |
+| S3 without OpenAlex records | 44 | 0 studies | 7 | 1/41 | 14/41 |
+| S4 without known items | 63 | 0 studies | 16 | 4/61 | 27/61 |
 
 <p align="center"><img src="assets/fig5_sensitivity.png" width="60%"></p>
 
 ## 4. 🕳️ Research gaps
-| ID | Gap | Evidence (study IDs) |
-|---|---|---|
-| G1 | Judge-free methods (attention or perception regularisers, auxiliary perception tasks) do not check whether the written reasoning matches the image | S05, S12, S18, S34, S35, S47, S48, S61 |
-| G2 | Methods that do check the reasoning depend on a judge, annotations, rubrics or a trained reward model | S02, S04, S07, S08, S09, S17, S37, S42, S46, S54, S60 |
-| G3 | No study compares reward families on one backbone with training cost reported | backbones, data and benchmarks differ across papers |
-| G4 | Small scale or one model family; weak reproducibility (own code in 25 of 66) | S03, S18, S38, S41, S50, S55 |
-| G5 | Accuracy gains do not prove the image was used; reasoning can be fragile | S16, S29, S41, S43, S59 |
+| ID | Gap | Evidence | Direction |
+|---|---|---|---|
+| G1 | No judge-free, label-free reward checks the reasoning text against the image | Empty framework cell; nearest S03, S61 | Frozen-encoder text–image consistency reward |
+| G2 | Reward families never compared on one backbone and data | Reported gains (paper Fig. 9) | Shared protocol: one backbone, same data, all families |
+| G3 | Cost rarely reported | 4/63 studies | Report GPU-hours, judge calls, annotation hours |
+| G4 | Faithfulness measured directly by a minority | 27/63 studies | Pair accuracy with hallucination and trace-audit metrics |
+| G5 | Weak reproducibility; mostly preprints | Code 25/66; 52/66 unverified venue | Release code; replicate key preprint results |
 
-## 5. 🧪 Our method and experiment
-**A-gated (starvation-gated consistency reward).** Reward A = Q · (w<sub>c</sub>·C + w<sub>g</sub>·G):
-**C** checks that the reasoning agrees with the final answer about the asked object, **G** lets a frozen CLIP verify the objects the
-reasoning claims to see, **Q** blocks empty, copied or repetitive reasoning. A is given **only in GRPO groups whose outcome reward has
-zero variance**, i.e. exactly where plain GRPO gets no gradient. No judge model and no annotations are used inside the reward.
+## 5. 🗂️ Benchmarks used in the field
+POPE, CHAIR (COCO), HallusionBench, MMHal-Bench, AMBER, MMStar, MMMU, MathVista, MMMC (modality conflict).
 
-**Setup.** Qwen2.5-VL-3B-Instruct, LoRA, GRPO (TRL), 40 steps, 2,000 COCO-based modality-conflict questions (absent object → answer *None*),
-200 held-out questions with an unseen phrasing, seed 42, one Kaggle T4. Baselines re-implemented on the same budget:
-[MC-R1](https://doi.org/10.1109/TMM.2026.3726309) (IEEE TMM 2026), [PAPO](https://arxiv.org/abs/2507.06448) (ICLR 2026), [CFPO](https://arxiv.org/abs/2606.23206).
-
-| Method | Acc ↑ | Conflict acc ↑ | Normal acc ↑ | False-None ↓ | CHAIR_i ↓ | CHAIR_s ↓ | Zero-var groups ↓ | GPU h | Peak GB |
-|---|---|---|---|---|---|---|---|---|---|
-| Zero-shot | 0.610 | 0.787 | 0.453 | 0.057 | 0.109 | 0.175 | – | – | – |
-| GRPO | 0.765 | 0.947 | 0.604 | 0.066 | 0.114 | 0.170 | 0.150 | 1.30 | 3.1 |
-| MC-R1 | 0.770 | 0.936 | 0.623 | 0.066 | 0.104 | 0.150 | 0.050 | 1.30 | 4.0 |
-| PAPO | 0.745 | 0.947 | 0.566 | 0.104 | 0.115 | 0.180 | 0.175 | 2.39 | 8.0 |
-| CFPO | 0.760 | 0.957 | 0.585 | 0.094 | 0.111 | 0.165 | 0.150 | 2.30 | 8.0 |
-| **Ours (A-gated)** | **0.795** | 0.979 | 0.632 | 0.104 | **0.088** | 0.130 | 0.037 | 1.30 | 3.9 |
-
-<p align="center"><img src="assets/results_main.svg" width="92%"></p>
-<p align="center"><img src="assets/cost_vs_accuracy.svg" width="48%"></p>
-
-- Every trained method beats zero-shot significantly (exact McNemar, Holm-adjusted; ours +18.5 points, 95% CI [12.5, 24.5]).
-- Ours has the highest accuracy and the lowest hallucination inside the reasoning, at the training cost of plain GRPO; PAPO and CFPO need about 1.8× the time and 2× the memory.
-- **Honest caveats:** one seed and 200 test items, so the differences between trained methods are not yet statistically confirmed; ours raises the false-None rate (0.066 → 0.104). Larger runs are in progress.
-
-## 6. 🗂️ Benchmarks used in the field
-POPE, CHAIR (COCO), HallusionBench, MMHal-Bench, AMBER, MMStar, MMMU, MathVista, MMMC (modality conflict). Our experiment uses a
-COCO modality-conflict set, POPE, and a reasoning-level CHAIR variant; MMMC and an Urdu re-phrased set are supported in the notebooks.
-
-## 7. Contributing
+## 6. Contributing
 New paper on rewards against hallucination in RL-trained VLMs? Open an issue or a pull request that adds a row to
 [`data/papers.csv`](data/papers.csv) (title, first author, year, venue, link, reward family) and run `python build_site.py`.
 See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 Maintained by **Aafreen Zahra Kazmi** (FAST-NUCES). Code under MIT, text and data under CC BY 4.0 (see [LICENSE](LICENSE)).
-Datasets (COCO, POPE, MMMC, MVTec AD) keep their own licences and are downloaded by the notebooks, not redistributed here.

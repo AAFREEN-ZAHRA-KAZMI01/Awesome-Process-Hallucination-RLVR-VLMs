@@ -1,0 +1,66 @@
+ID,Source,Title,Record,Year
+R004,arXiv S1 (pilot rank 3),Human-Centric Image Captioning with Subject-Centered Spatial Understanding,arXiv:2609.08300,2026
+R006,arXiv S1 (pilot rank 5),CFPO: Counterfactual Policy Optimization for Multimodal Reasoning,arXiv:2606.23206,2026
+R008,arXiv S1 (pilot rank 7),Attend to Evidence: Evidence- Anchored Spatial Attention Supervision for Multimodal RLVR,arXiv:2605.30912,2026
+R010,arXiv S1 (pilot rank 9),Improving Vision-language Models with Perception-centric Process Reward Models,arXiv:2604.24583,2026
+R017,arXiv S1 (pilot rank 16),More Than the Final Answer: Improving Visual Extraction and Logical Consistency in Vision- Language Models,arXiv:2512.12487,2025
+R026,arXiv S1 (pilot rank 25),Zoom-Zero: Reinforced Coarse-to- Fine Video Understanding via Temporal Zoom-in,arXiv:2512.14273,2025
+R034,arXiv S1 (pilot rank 33),Perceptual Flow Network for Visually Grounded Reasoning,arXiv:2605.02730,2026
+R043,arXiv S1 (pilot rank 42),Addressing Overthinking in Large Vision-Language Models via Gated Perception-Reasoning Optimization,arXiv:2601.04442,2026
+R046,arXiv S1 (pilot rank 45),Visual Attention Reasoning via Hierarchical Search and Self- Verification,arXiv:2510.18619,2025
+R047,arXiv S1 (pilot rank 46),TAR: Temporal Anchor-Constrained Reasoning for Video Temporal Grounding,arXiv:2508.07683,2025
+R056,arXiv S1 (pilot rank 55),V-Rubrics: Visual Faithfulness via Rubric-Based Reinforcement Learning,arXiv:2608.25580,2026
+R058,arXiv S1 (pilot rank 57),"Perturb the Thought, Not the Pixels: Latent-Space Rollout Diversification for Reinforcement Learning of Vision-Language Models",arXiv:2608.21595,2026
+R061,arXiv S1 (pilot rank 60),CARE: Confidence-Aware Reasoning for Reliable Medical VQA,arXiv:2608.10964,2026
+R064,arXiv S1 (pilot rank 63),COMEX: A Composition-Grounded Benchmark and Learning Framework for Explainable Aesthetic Image Cropping,arXiv:2608.07570,2026
+R074,arXiv S1 (pilot rank 73),"Artificial Intelligence for Mathematical Reasoning: An Integrated Survey of Language Models, Neuro-symbolic Systems, and Verified Discovery",arXiv:2606.08728,2026
+R077,arXiv S1 (pilot rank 76),Reinforcing Multimodal Reasoning Against Visual Degradation,arXiv:2605.09262,2026
+R078,arXiv S1 (pilot rank 77),Reward-Decomposed Reinforcement Learning for Immersive Video Role-Playing,arXiv:2605.04733,2026
+R079,arXiv S1 (pilot rank 78),Enhancing Multimodal In-Context Learning via Inductive-Deductive Reasoning,arXiv:2605.02378,2026
+R083,arXiv S1 (pilot rank 82),Improving Medical VQA through Trajectory-Aware Process Supervision,arXiv:2605.04064,2026
+R085,arXiv S1-v2,Perception-R1: Advancing Multimodal Reasoning Capabilities of MLLMs via Visual Perception Reward,"Tong Xiao, Xin Xu, Zhenya Huang, Hongyu Gao et al.",2025
+R091,Known item (Assignment 1),HallusionBench: An Advanced Diagnostic Suite for Entangled Language Hallucination and Visual Illusion in Large Vision-Language Models,"Tianrui Guan, Fuxiao Liu, Xiyang Wu, Ruiqi Xian et al.",2023
+R094,IEEE Xplore S1-IEEE,"A Survey of State of the Art Large Vision Language Models: Alignment, Benchmark, Evaluations and Challenges",IEEE Xplore doc 11147946,2025
+R095,IEEE Xplore S1-IEEE,Fine-Grained Rewards for Visual CoT: Mitigating Hallucinations in Vision-Language Models,IEEE Xplore doc 11454196,2026
+R102,IEEE Xplore S1-IEEE,Mitigating Hallucinations in Large Vision-Language Models via DPO: On-Policy Data Hold the Key,IEEE Xplore doc 11094767,2025
+R111,IEEE Xplore S1-IEEE,Clinically Grounded Radiology Report Generation via Explanation- Guided Policy Optimization,IEEE Xplore doc 11515964,2026
+R115,IEEE Xplore S1-IEEE,TGPO: Tree-Guided Preference Optimization for Robust Web Agent Reinforcement Learning,IEEE Xplore doc 11464574,2026
+R119,IEEE Xplore S1-IEEE,Large (Vision) Language Models for Autonomous Vehicles: Current Trends and Future Directions,IEEE Xplore doc 11264491,2026
+R120,IEEE Xplore S1-IEEE,MotionVL: Vision-Language Supervision for Reinforcement Learning of Humanoid Motion,IEEE Xplore doc 11419765,2026
+R125,IEEE Xplore S1-IEEE,"Advancements in Image Captioning: A Comprehensive Survey on Techniques, Modalities, and Applications",IEEE Xplore doc 11499090,2025
+R140,ACM DL S1- ACM,SAKE: Self-aware Knowledge Exploitation-Exploration for Grounded Multimodal Named Entity Recognition,ACM DL doi:10.1145/377 0855.3817763,2026
+R145,OpenAlex S1- OA,ManipLVM-R1: Reinforcement Learning for Reasoning in Embodied Manipulation with Large Vision- Language Models,OpenAlex result index 3,2026
+R147,OpenAlex S1- OA,VisPlay: Self-Evolving Vision- Language Models from Images,OpenAlex result index 7,2025
+R154,OpenAlex S1- OA,AgentThink: A Unified Framework for Tool-Augmented Chain-of- Thought Reasoning in Vision- Language Models for Autonomous Driving,OpenAlex result index 25,2025
+R164,OpenAlex S1- OA,Re-Align: Aligning Vision Language Models via Retrieval-Augmented Direct Preference Optimization,OpenAlex result index 46,2025
+R168,OpenAlex S1- OA,VCGD: Visual Clue Guided Decoding with Caption Model for Mitigating Hallucination in Multimodal Large Language Models,OpenAlex result index 52,2026
+R174,OpenAlex S1- OA,Difference Feedback: Generating Multimodal Process-Level Supervision for VLM Reinforcement Learning,arXiv:2603.27482,2026
+R176,OpenAlex S1- OA,HERO: Enhancing Multimodal Faithfulness via Dynamic Entropy- Aware Reinforcement Learning,OpenAlex result index 65,2026
+R177,OpenAlex S1- OA,BoT-GRPO: Efficient Process-Reward RL for Reasoning via Bag-of-Token Aggregation,OpenAlex result index 66,2026
+R178,OpenAlex S1- OA,Multimodal large language model for wheat breeding: A new exploration of smart breeding,OpenAlex result index 67,2025
+R180,OpenAlex S1- OA,Patho-AgenticRAG: Towards Multimodal Agentic Retrieval- Augmented Generation for Pathology VLMs via Reinforcement Learning,OpenAlex result index 70,2026
+R182,OpenAlex S1- OA,"DeepEyes: Incentivizing ""Thinking with Images"" via Reinforcement Learning",arXiv:2505.14362,2025
+R200,OpenAlex S1- OA,PathVLM-R1: A Reinforcement Learning-Driven Reasoning Model for Pathology Visual-Language Tasks,OpenAlex result index 101,2025
+R205,OpenAlex S1- OA,CheXPO-v2: Preference optimization for chest X-ray VLMs with knowledge graph consistency,OpenAlex result index 108,2026
+R210,OpenAlex S1- OA,"See It, Say It, Sorted: An Iterative Training-Free Framework for Visually-Grounded Multimodal Reasoning in LVLMs",OpenAlex result index 114,2026
+R221,OpenAlex S1- OA,BioReason: Retrieve-Then-Reason MLLMs for Interpretable Fine- Grained Species Classification,OpenAlex result index 130,2026
+R232,OpenAlex S1- OA,Reinforcing Visual Grounding in VLMs Through Evidence-Fidelity Alignment,OpenAlex result index 141,2026
+R245,OpenAlex S1- OA,VideoHallu: Evaluating and Mitigating Multi-modal Hallucinations for Synthetic Videos,OpenAlex result index 159,2025
+R249,OpenAlex S1- OA,CycleCap: Improving VLMs Captioning Performance via Self- Supervised Cycle Consistency Fine- Tuning,OpenAlex result index 165,2026
+R251,OpenAlex S1- OA,Perceptual-Evidence Anchored Reinforced Learning for Multimodal Reasoning,arXiv:2511.18437,2025
+R255,OpenAlex S1- OA,Qwen Look Again: Guiding Vision- Language Reasoning Models to Re- attention Visual Information,arXiv:2505.23558,2025
+R262,OpenAlex S1- OA,From Illusion to Intention: Visual Rationale Learning for Vision- Language Reasoning,arXiv:2511.23031,2026
+R267,OpenAlex S1- OA,TransAnyText: Translating Arbitrary Text in E-commerce Images via Structured Visual Generation,OpenAlex result index 199,2026
+R273,OpenAlex S1- OA,Synergy of giants and specialists: A large-and-small model integration framework driven by generative AI for smart manufacturing,OpenAlex result index 215,2026
+R276,OpenAlex S1- OA,FUSE: Fine-Grained and Semantic- Aware Learning for Unified Image Understanding and Generation,OpenAlex result index 220,2026
+R287,OpenAlex S1- OA,Multimodal explanations for explainable AI: an empirical study of text-video combinations on end- user understandability,OpenAlex result index 237,2025
+R288,OpenAlex S1- OA,Thinking with Programming Vision: Towards a Unified View for Thinking with Images,OpenAlex result index 238,2025
+R292,OpenAlex S1- OA,Beyond Words: The Evolution of Large Language Models in Context- Aware Large Language Models (LLMs),OpenAlex result index 245,2025
+R296,OpenAlex S1- OA,Toward Reliable Supervision for Foundation Models,OpenAlex result index 253,2026
+R304,OpenAlex S1- OA,Reasoning-Aligned Perception Decoupling for Scalable Multi-modal Reasoning,arXiv:2506.04559,2025
+R307,OpenAlex S1- OA,Offline-Online Curriculum RL for Multimodal Reasoning,OpenAlex result index 270,2026
+R310,OpenAlex S1- OA,EvolveReason: Self-Evolving Reasoning Paradigm for Explainable Deepfake Facial Image Identification,OpenAlex result index 273,2026
+R312,OpenAlex S1- OA,Explicit geometric grounding enables data-efficient and interpretable geospatial reasoning,OpenAlex result index 275,2026
+R320,OpenAlex S1- OA,Agent0-VL: Exploring Self-Evolving Agent for Tool-Integrated Vision- Language Reasoning,OpenAlex result index 287,2025
+R323,OpenAlex S1- OA,VGEdit: Unlocking Video Generation Priors for Reasoning-Informed Image Editing,OpenAlex result index 290,2026
+R325,OpenAlex S1- OA,FireScope: Wildfire Risk Raster Prediction with a Chain-of-Thought Oracle,OpenAlex result index 293,2025
