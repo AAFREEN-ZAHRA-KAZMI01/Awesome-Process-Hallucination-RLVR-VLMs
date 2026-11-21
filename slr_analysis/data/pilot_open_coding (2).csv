@@ -1,0 +1,20 @@
+code,Q1_reward_choice,Q1_judge_free_label_free,Q2_missing_types,Q3_benchmarks_show_faithfulness
+E01,image-text matching reward,1,,No
+E02,rule-based grounding + self-consistency,1,,invalid
+E03,rule-based grounding + self-consistency,1,,No
+E04,no answer,0,no answer,no answer
+E05,consistency-based reward,1,none,Not fully
+E06,no answer,0,no answer,no answer
+E07,no answer,0,none,No
+E08,consistency-based reward,1,uncertainty-based,No
+E09,frozen-encoder text-image consistency,1,hybrid (accuracy + grounding + consistency),No
+E10,self-supervised visual-grounding reward,1,counterfactual consistency,Not fully
+E11,rule-based grounding + self-consistency,1,process-level (step) visual grounding,No
+E12,no answer,0,none,No
+E13,outcome reward + frozen-encoder consistency + image-ablation check,1,counterfactual/perturbation; tool-verified; grounded intermediate steps; intrinsic signals,Mostly no
+E14,frozen-encoder text-image consistency (claim level),1,self-supervised/contrastive consistency incl. perturbation and counterfactual images,Not sufficiently
+E15,counterfactual consistency (penalise reasoning that ignores image changes),1,self-supervised counterfactual consistency,Not fully
+E16,self-consistency + visual-perturbation consistency with GRPO,1,none,Not fully
+E17,self-supervised visual grounding + counterfactual consistency,1,causal faithfulness (intervention-based) reward,No
+E18,rule-based reward + attention-based region verification,1,invalid (benchmark answer pasted),Not fully
+E19,"no answer (""too complicated"")",0,no answer,invalid

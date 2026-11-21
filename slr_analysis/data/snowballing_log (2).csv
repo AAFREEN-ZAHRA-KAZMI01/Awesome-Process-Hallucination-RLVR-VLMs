@@ -1,0 +1,186 @@
+direction,title,first_author,year,cited_by_seed,decision,reason
+backward,R1-V,L. Chen,2025,"S18,S17,S61",Excluded at title,IC3 focus: outcome-only RL
+backward,GRIT: Teaching MLLMs to think with images,Y. Fan,2025,S18,Potentially eligible,grounded reasoning reward
+backward,Vision-R1,W. Huang,2025,"S18,S01,S03,S17,S61",Already included,S19
+backward,Mini-o3,X. Lai,2025,S18,Excluded at title,"IC3 focus: agentic search, outcome reward"
+backward,Vision Matters: simple visual perturbations,Y. Li,2025,S18,Potentially eligible,perception via perturbation
+backward,Vision-SR1: self-rewarding VLM via reasoning decomposition,Z. Li,2025,"S18,S61",Potentially eligible,visual perception self-reward
+backward,MoDoMoDo: mixture-of-datasets RL,T. Liang,2025,S18,Excluded at title,IC3 focus: data mixture
+backward,NoisyRollout,X. Liu,2025,S18,Potentially eligible,perturbed images in rollouts
+backward,Vision-Reasoner,Y. Liu,2025,S18,Excluded at title,"IC3 focus: unified perception tasks, outcome reward"
+backward,Visual-RFT,Z. Liu,2025,"S18,S03,S17",Already included,S20
+backward,One RL to See Them All (V-Triune),Y. Ma,2025,S18,Excluded at title,IC3 focus: training system
+backward,MM-Eureka (rule-based RL),F. Meng,2025,"S18,S01,S17,S61",Excluded at title,IC3 focus: outcome-only RL
+backward,LMM-R1,Y. Peng,2025,"S18,S17",Excluded at title,IC3 focus: outcome-only RL
+backward,VLM-R1,H. Shen,2025,"S18,S61",Excluded at title,IC3 focus: outcome-only RL
+backward,Semi-off-policy RL for slow-thinking,J. Shen,2025,S18,Excluded at title,IC3 focus
+backward,Satori-R1: spatially anchored verifiable rewards,L. Shen,2025,S18,Potentially eligible,spatial grounding reward
+backward,Pixel Reasoner,A. Su,2025,S18,Excluded at title,IC3 focus: curiosity reward for tool use
+backward,Reason-RFT,H. Tan,2025,"S18,S03,S61",Excluded at title,IC3 focus: outcome-only RFT
+backward,SRPO: reflection-aware RL,Z. Wan,2025,S18,Excluded at title,"IC3 focus: reflection, no perception check"
+backward,TreeVGR: traceable evidence enhanced grounded reasoning,H. Wang,2025,S18,Potentially eligible,evidence-traceable grounding reward
+backward,VL-Rethinker,H. Wang,2025,"S18,S61",Excluded at title,IC3 focus: self-reflection
+backward,Think or Not? Selective reasoning via RL,J. Wang,2025,S18,Excluded at title,IC3 focus
+backward,Skywork R1V2,P. Wang,2025,S18,Excluded at title,IC3 focus: model report
+backward,Open Vision Reasoner,Y. Wei,2025,S18,Excluded at title,IC3 focus
+backward,Visionary-R1: mitigating shortcuts in visual reasoning,J. Xia,2025,"S18,S61",Potentially eligible,shortcut / grounding focus
+backward,Perception-R1 (visual perception reward),T. Xiao,2025,"S18,S01,S61",Already included,S17
+backward,Perception-R1 (perception policy with RL),E. Yu,2025,"S18,S01",Potentially eligible,perception-task rewards
+backward,R1-OneVision,Y. Yang,2025,"S18,S17",Excluded at title,IC3 focus: cross-modal formalisation
+backward,R1-ShareVL: Share-GRPO,H. Yao,2025,S18,Excluded at title,IC3 focus
+backward,DeepEyes,Z. Zheng,2025,"S18,S61",Already included,S50
+backward,Active-o3: active perception via GRPO,M. Zhu,2025,S18,Potentially eligible,active perception reward
+backward,Truth in the Few: data selection,S. Li,2025,S18,Excluded at title,IC3 focus: data selection
+backward,DreamPRM: domain-reweighted multimodal PRM,Q. Cao,2025,S01,Potentially eligible,multimodal process reward model
+backward,VRPRM: process reward modeling via visual reasoning,X. Chen,2025,S01,Potentially eligible,multimodal process reward model
+backward,OpenVLThinker,Y. Deng,2025,"S01,S03,S17,S61",Excluded at title,IC3 focus: iterative SFT/RL
+backward,MM-PRM: scalable step-level supervision,L. Du,2025,S01,Potentially eligible,multimodal process reward model
+backward,PRM-BAS: PRM-guided beam annealing search,P. Hu,2025,S01,Excluded at title,IC2: test-time search only
+backward,ViLBench: vision-language process reward benchmark,H. Tu,2025,S01,Excluded at title,IC2: benchmark
+backward,VisualPRM,W. Wang,2025,S01,Already included,S22
+backward,Unified multimodal CoT reward model via RFT,Y. Wang,2025,S01,Potentially eligible,multimodal CoT reward model
+backward,GM-PRM: generative multimodal PRM,J. Zhang,2025,S01,Potentially eligible,multimodal process reward model
+backward,R1-VL: step-wise GRPO,J. Zhang,2025,"S01,S17,S61",Potentially eligible,step-wise process rewards
+backward,Unified reward model for understanding and generation,X. Zhang,2025,S01,Excluded at title,EC3: includes generation
+backward,R1-Zero aha moment on a 2B model,H. Zhou,2025,S01,Excluded at title,IC3 focus
+backward,GRPO-CARE: consistency-aware RL,Chen,2025,S03,Potentially eligible,answer-reasoning consistency reward
+backward,Video-R1,Feng,2026,S03,Excluded at title,"EC3: video, outcome reward"
+backward,Answer-consistent CoT RL for MLLMs,Huang,2025,S03,Potentially eligible,reasoning-answer consistency
+backward,TACO: think-answer consistency via RL,Kan,2025,S03,Potentially eligible,think-answer consistency
+backward,To think or not to think (rule-based visual RFT),Li,2026,S03,Excluded at title,IC3 focus: analysis of thinking
+backward,VG-CoT: trustworthy grounded chain-of-thought,Lim,2026,S03,Potentially eligible,grounded CoT faithfulness
+backward,Faithful-MR1,Tian,2026,S03,Already included,S08
+backward,SFT or RL? R1-like LVLMs (VLAA-Thinker),H. Chen,2025,"S17,S61",Excluded at title,IC3 focus
+backward,SophiaVL-R1: thinking reward,K. Fan,2025,S17,Potentially eligible,reward on the thinking process
+backward,MMR1,S. Leng,2025,S17,Excluded at title,IC3 focus
+backward,EasyR1 framework,Y. Zheng,2025,"S17,S61",Excluded at title,EC4: software framework
+backward,Devils in middle layers (object hallucination),Z. Jiang,2025,S17,Excluded at title,EC2: no training reward
+backward,Text-debiased hint-GRPO,Q. Huang,2025,S61,Potentially eligible,visual dependence in GRPO
+backward,"More thinking, less seeing? (hallucination in reasoning)",C. Liu,2025,S61,Potentially eligible,diagnostic: reasoning amplifies hallucination
+backward,WeThink,J. Yang,2025,S61,Excluded at title,IC3 focus
+forward,Spotlight on Token Perception for Multimodal Reinforcement Learning,,2026,OpenAlex cites: S17/S61/S01,Potentially eligible,perception tokens in RL
+forward,Reinforcement Learning for Multimodal Foundation Models: A Survey,,2026,OpenAlex cites: S17/S61/S01,Excluded at title,IC2: survey
+forward,Seeing with You: Perception-Reasoning Co-evolution for Multimodal Reasoning,,2026,OpenAlex cites: S17/S61/S01,Potentially eligible,perception reward
+forward,Not All Tokens See Equally: Perception-Grounded Policy Optimization for LVLMs,,2026,OpenAlex cites: S17/S61/S01,Potentially eligible,perception-grounded PO
+forward,PaLMR,,2026,OpenAlex cites: S17/S61/S01,Already included,S01
+forward,CapGeo-Bench,,2026,OpenAlex cites: S17/S61/S01,Excluded at title,IC2: benchmark
+forward,Smooth Operator: smooth verifiable reward for spatial reasoning,,2026,OpenAlex cites: S17/S61/S01,Excluded at title,IC3 focus: outcome reward shaping
+forward,Bridging Visual Representation and RLVR in LVLMs,,2026,OpenAlex cites: S17/S61/S01,Potentially eligible,visual representation in RLVR
+forward,KidGym benchmark,,2026,OpenAlex cites: S17/S61/S01,Excluded at title,IC2: benchmark
+forward,V-Rubrics,,2026,OpenAlex cites: S17/S61/S01,Already included,S09
+forward,Token-Level Perception-Grounded Advantage Estimation,,2026,OpenAlex cites: S17/S61/S01,Potentially eligible,perception-grounded advantage
+forward,PEARL,,2026,OpenAlex cites: S17/S61/S01,Already included,S61
+forward,Thinking in Uncertainty: latent entropy-aware decoding,,2026,OpenAlex cites: S17/S61/S01,Excluded at title,EC2: decoding only
+forward,Not Every Rubric Teaches Equally (RLVR),,2026,OpenAlex cites: S17/S61/S01,Excluded at title,IC1: not shown to be multimodal
+forward,Beyond SFT-to-RL: black-box on-policy distillation,,2026,OpenAlex cites: S17/S61/S01,Excluded at title,IC3 focus
+forward,VKnowU benchmark,,2026,OpenAlex cites: S17/S61/S01,Excluded at title,IC2: benchmark
+forward,Rethinking Token-Level Policy Optimization for Multimodal CoT,,2026,OpenAlex cites: S17/S61/S01,Potentially eligible,process-level policy optimisation
+forward,Bridging Perception and Reasoning: token reweighting for RLVR,,2026,OpenAlex cites: S17/S61/S01,Potentially eligible,perception tokens
+forward,RuCL: rubric-based curriculum for MLLM reasoning,,2026,OpenAlex cites: S17/S61/S01,Potentially eligible,rubric rewards
+forward,PRPO: perception-reinforced policy optimization,,2026,OpenAlex cites: S17/S61/S01,Potentially eligible,perception reward
+forward,Composition-RL (LLMs),,2026,OpenAlex cites: S17/S61/S01,Excluded at title,IC1: text only
+forward,CPPO,,2026,OpenAlex cites: S17/S61/S01,Already included,S35
+forward,Omni-Perception PO for emotion reasoning,,2026,OpenAlex cites: S17/S61/S01,Excluded at title,EC3: emotion domain
+forward,Learning When to Look,,2026,OpenAlex cites: S17/S61/S01,Already included,S65
+forward,APPO: attention-guided perception PO for video,,2026,OpenAlex cites: S17/S61/S01,Potentially eligible,perception via attention
+forward,Structured Role-Aware Policy Optimization,,2026,OpenAlex cites: S17/S61/S01,Potentially eligible,multimodal policy optimisation
+forward,Evidence-RL: evidence-intensive visual reasoning,,2026,OpenAlex cites: S17/S61/S01,Potentially eligible,evidence reward
+forward,RS-WorldModel (remote sensing),,2026,OpenAlex cites: S17/S61/S01,Excluded at title,EC3: remote sensing
+forward,PDCR: perception-decomposed confidence reward,,2026,OpenAlex cites: S17/S61/S01,Potentially eligible,perception confidence reward
+forward,Consistency as Inductive Bias (cross-view invariance),,2026,OpenAlex cites: S17/S61/S01,Already included,S40
+forward,Group Pattern Selection Optimization (LRMs),,2026,OpenAlex cites: S17/S61/S01,Excluded at title,IC1: text only
+forward,MM-THEBench,,2026,OpenAlex cites: S17/S61/S01,Excluded at title,IC2: benchmark
+forward,Asymmetric optimization of reasoning and perception in VLM post-training,,2026,OpenAlex cites: S17/S61/S01,Potentially eligible,diagnostic of perception in RL
+forward,Perception or Reasoning? Diagnosing RL bottlenecks in VLMs,,2026,OpenAlex cites: S17/S61/S01,Potentially eligible,diagnostic
+forward,Cartoon captionist humor,,2026,OpenAlex cites: S17/S61/S01,Excluded at title,EC3: humour domain
+forward,MathVis-Fine: dependency-guided training,,2026,OpenAlex cites: S17/S61/S01,Excluded at title,IC2: not RL
+forward,SIVA-RL: sensitivity-invariance visual alignment,,2026,OpenAlex cites: S17/S61/S01,Potentially eligible,visual alignment reward
+forward,ChartProbe diagnostic,,2026,OpenAlex cites: S17/S61/S01,Excluded at title,IC2: no RL
+forward,"Hints, Critics, and Teachers: prior injection for sparse-reward RL",,2026,OpenAlex cites: S17/S61/S01,Excluded at title,IC3 focus: outcome reward
+forward,"Look Where It Counts: free, label-free visual evidence signal",,2026,OpenAlex cites: S17/S61/S01,Potentially eligible,label-free evidence signal (relevant to G1)
+forward,"Edit, Don't Imitate: on-policy distillation",,2026,OpenAlex cites: S17/S61/S01,Excluded at title,IC3 focus
+forward,PerceptRL,,2026,OpenAlex cites: S17/S61/S01,Already included,S47
+forward,"Local Evidence, Global Credit: evidence-calibrated PO",,2026,OpenAlex cites: S17/S61/S01,Potentially eligible,visual evidence reward
+forward,RIFT: figurative entailment,,2026,OpenAlex cites: S17/S61/S01,Excluded at title,EC3
+forward,VIGOR: outcome-contrastive visual grounding PO,,2026,OpenAlex cites: S17/S61/S01,Potentially eligible,grounding reward
+forward,Quantized MLLM reasoning degradation,,2026,OpenAlex cites: S17/S61/S01,Excluded at title,IC2
+forward,ThinkWise: when to think,,2026,OpenAlex cites: S17/S61/S01,Excluded at title,IC3 focus
+forward,VGPO,,2026,OpenAlex cites: S17/S61/S01,Already included,S15
+forward,Attend to Evidence (EASE),,2026,OpenAlex cites: S17/S61/S01,Already included,S07
+forward,Omni-I2C benchmark,,2026,OpenAlex cites: S17/S61/S01,Excluded at title,EC3: generation
+forward,Multimodal Reward Hacking in RL,,2026,OpenAlex cites: S17/S61/S01,Potentially eligible,diagnostic: reward hacking
+forward,EduFlow critique,,2026,OpenAlex cites: S17/S61/S01,Excluded at title,EC3: education
+forward,Remember-R1: long-context visual forgetting,,2026,OpenAlex cites: S17/S61/S01,Potentially eligible,visual retention reward
+forward,DeepSketcher,,2026,OpenAlex cites: S17/S61/S01,Excluded at title,IC3 focus
+forward,Zooming without Zooming: distillation,,2026,OpenAlex cites: S17/S61/S01,Excluded at title,IC2: not RL
+forward,Reward hacking survey (large models),,2026,OpenAlex cites: S17/S61/S01,Excluded at title,IC2: survey
+forward,What does RL improve for visual reasoning? (analysis),,2026,OpenAlex cites: S17/S61/S01,Potentially eligible,diagnostic
+forward,Be Faithful When Response,,2026,OpenAlex cites: S17/S61/S01,Already included,S45
+forward,Persistent Visual Memory,,2026,OpenAlex cites: S17/S61/S01,Excluded at title,IC2: architecture
+forward,DyCo-RL: dynamic cross-modal coordination,,2026,OpenAlex cites: S17/S61/S01,Potentially eligible,cross-modal RL
+forward,Preference redirection attack,,2026,OpenAlex cites: S17/S61/S01,Excluded at title,IC1
+forward,VeriEvol data scaling,,2026,OpenAlex cites: S17/S61/S01,Excluded at title,IC3 focus
+forward,Echo-alpha ultrasound,,2026,OpenAlex cites: S17/S61/S01,Excluded at title,EC3: medical
+forward,Perception-decision misalignment in Omni-LLMs,,2026,OpenAlex cites: S17/S61/S01,Excluded at title,IC2: not RL
+forward,PEAR: advantage reshaping for perception,,2026,OpenAlex cites: S17/S61/S01,Potentially eligible,perception advantage
+backward (base paper),ROUGE: A Package for Automatic Evaluation of Summaries,,2004,MC-R1 (base),Excluded at title,pre-2022 or general foundational work (IC4)
+backward (base paper),Training Language Models to Follow Instructions with Human Feedback,,2022,MC-R1 (base),Excluded at title,text-only LLM (EC1)
+backward (base paper),DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning,,2025,MC-R1 (base),Excluded at title,text-only; cited as foundational work (EC1)
+backward (base paper),Survey of Hallucination in Natural Language Generation,,2023,MC-R1 (base),Excluded at title,text-only survey (EC1)
+backward (base paper),Improved Baselines with Visual Instruction Tuning,,2024,MC-R1 (base),Excluded at title,"backbone model, no RL reward (IC2); cited as foundational"
+backward (base paper),Evaluating Object Hallucination in Large Vision-Language Models,,2023,MC-R1 (base),Excluded at title,"benchmark/dataset only, no training reward (IC2)"
+backward (base paper),MMBench: Is Your Multi-modal Model an All-Around Player?,,2024,MC-R1 (base),Excluded at title,"benchmark/dataset only, no training reward (IC2)"
+backward (base paper),MMMU: A Massive Multi-Discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI,,2024,MC-R1 (base),Excluded at title,"benchmark/dataset only, no training reward (IC2)"
+backward (base paper),HybridFlow: A Flexible and Efficient RLHF Framework,,2025,MC-R1 (base),Excluded at title,"training infrastructure, text-only (EC1)"
+backward (base paper),A survey on multimodal large language models,,2024,MC-R1 (base),Excluded at title,"survey: considered for the reviews table, not a primary study (already in Table I)"
+backward (base paper),MME: A Comprehensive Evaluation Benchmark for Multimodal Large Language Models,,2025,MC-R1 (base),Excluded at title,"benchmark/dataset only, no training reward (IC2)"
+backward (base paper),MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts,,2023,MC-R1 (base),Excluded at title,"benchmark/dataset only, no training reward (IC2)"
+backward (base paper),Are We on the Right Way for Evaluating Large Vision-Language Models?,,2024,MC-R1 (base),Excluded at title,"benchmark/dataset only, no training reward (IC2)"
+backward (base paper),HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models,,2023,MC-R1 (base),Excluded at title,text-only LLM (EC1)
+backward (base paper),OCRBench: on the hidden mystery of OCR in large multimodal models,,2024,MC-R1 (base),Excluded at title,"benchmark/dataset only, no training reward (IC2)"
+backward (base paper),Mitigating Object Hallucinations in Large Vision-Language Models through Visual Contrastive Decoding,,2024,MC-R1 (base),Excluded at title,prompting- or decoding-only mitigation (EC2)
+backward (base paper),Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models,,2025,MC-R1 (base),Already included,S19
+backward (base paper),OPERA: Alleviating Hallucination in Multi-Modal Large Language Models via Over-Trust Penalty and Retrospection-Allocation,,2024,MC-R1 (base),Excluded at title,prompting- or decoding-only mitigation (EC2)
+backward (base paper),A Diagram is Worth a Dozen Images,,2016,MC-R1 (base),Excluded at title,pre-2022 or general foundational work (IC4)
+backward (base paper),Visual-RFT: Visual Reinforcement Fine-Tuning,,2025,MC-R1 (base),Already included,S20
+backward (base paper),RLHF-V: Towards Trustworthy MLLMs via Behavior Alignment from Fine-Grained Correctional Human Feedback,,2024,MC-R1 (base),Potentially eligible,fine-grained human-feedback objective for hallucination; check IC2 (preference vs RL)
+backward (base paper),Detecting and Preventing Hallucinations in Large Vision Language Models,,2024,MC-R1 (base),Potentially eligible,reward model for hallucination detection used in training; check IC2
+backward (base paper),MedVLM-R1: Incentivizing Medical Reasoning Capability of Vision-Language Models (VLMs) via Reinforcement Learning,,2025,MC-R1 (base),Excluded at title,domain-specific pipeline (EC3)
+backward (base paper),Mitigating Hallucinations in Large Vision-Language Models with Instruction Contrastive Decoding,,2024,MC-R1 (base),Excluded at title,prompting- or decoding-only mitigation (EC2)
+backward (base paper),The Emerged Security and Privacy of LLM Agent: A Survey with Case Studies,,2025,MC-R1 (base),Excluded at title,off-topic: not VLM reward design (IC1/IC2)
+backward (base paper),Med-R1: Reinforcement Learning for Generalizable Medical Reasoning in Vision-Language Models,,2026,MC-R1 (base),Excluded at title,domain-specific pipeline (EC3)
+backward (base paper),HalluciDoctor: Mitigating Hallucinatory Toxicity in Visual Instruction Data,,2024,MC-R1 (base),Excluded at title,"instruction-data cleaning, no RL reward (IC2)"
+backward (base paper),"Performance and exploration of ChatGPT in medical examination, records and education in Chinese",,2023,MC-R1 (base),Excluded at title,text-only LLM (EC1)
+backward (base paper),IBD: Alleviating Hallucinations in Large Vision-Language Models via Image-Biased Decoding,,2025,MC-R1 (base),Excluded at title,prompting- or decoding-only mitigation (EC2)
+backward (base paper),Multi-Level Policy and Reward-Based Deep Reinforcement Learning Framework for Image Captioning,,2019,MC-R1 (base),Excluded at title,pre-2022 or general foundational work (IC4)
+backward (base paper),Unique Security and Privacy Threats of Large Language Models: A Comprehensive Survey,,2025,MC-R1 (base),Excluded at title,off-topic: not VLM reward design (IC1/IC2)
+backward (base paper),VIGC: Visual Instruction Generation and Correction,,2024,MC-R1 (base),Excluded at title,"data generation, no RL reward (IC2)"
+backward (base paper),Plausible May Not Be Faithful: Probing Object Hallucination in Vision-Language Pre-training,,2023,MC-R1 (base),Excluded at title,"pre-training analysis, no RL reward (IC2)"
+backward (base paper),Multi-Task Paired Masking With Alignment Modeling for Medical Vision-Language Pre-Training,,2023,MC-R1 (base),Excluded at title,domain-specific pipeline (EC3)
+backward (base paper),Reference-free Hallucination Detection for Large Vision-Language Models,,2024,MC-R1 (base),Excluded at title,"detection only, no training reward (IC2)"
+backward (base paper),Reasoning beyond limits: Advances and open problems for LLMs,,2025,MC-R1 (base),Excluded at title,text-only LLM (EC1)
+backward (base paper),HaloQuest: A Visual Hallucination Dataset for Advancing Multimodal Reasoning,,2024,MC-R1 (base),Excluded at title,"benchmark/dataset only, no training reward (IC2)"
+backward (base paper),Skill-Based Hierarchical Reinforcement Learning for Target Visual Navigation,,2023,MC-R1 (base),Excluded at title,off-topic: not VLM reward design (IC1/IC2)
+backward (base paper),The Frontier of Data Erasure: A Survey on Machine Unlearning for Large Language Models,,2025,MC-R1 (base),Excluded at title,off-topic: not VLM reward design (IC1/IC2)
+backward (base paper),GPT4Ego: Unleashing the Potential of Pre-Trained Models for Zero-Shot Egocentric Action Recognition,,2024,MC-R1 (base),Excluded at title,off-topic: not VLM reward design (IC1/IC2)
+backward (base paper),Beyond Multimodal Hallucinations: Enhancing LVLMs through Hallucination-Aware Direct Preference Optimization,,2025,MC-R1 (base),Potentially eligible,hallucination-aware preference objective; check IC2 (DPO vs RL)
+backward (base paper),UniDCP: Unifying Multiple Medical Vision-Language Tasks via Dynamic Cross-Modal Learnable Prompts,,2024,MC-R1 (base),Excluded at title,domain-specific pipeline (EC3)
+backward (base paper),MossVLN: Memory-Observation Synergistic System for Continuous Vision-Language Navigation,,2025,MC-R1 (base),Excluded at title,off-topic: not VLM reward design (IC1/IC2)
+backward (base paper),Deep Reinforcement Polishing Network for Video Captioning,,2020,MC-R1 (base),Excluded at title,pre-2022 or general foundational work (IC4)
+backward (base paper),Learning Perceptual Hallucination for Multi-Robot Navigation in Narrow Hallways,,2023,MC-R1 (base),Excluded at title,off-topic: not VLM reward design (IC1/IC2)
+backward (base paper),Mitigating Hallucinations in Large Vision-Language Models via Reasoning Uncertainty-Guided Refinement,,2025,MC-R1 (base),Potentially eligible,reasoning-level hallucination mitigation; check whether a training reward is used (EC2)
+backward (base paper),Generalizable Prompt Learning via Gradient Constrained Sharpness-Aware Minimization,,2024,MC-R1 (base),Excluded at title,off-topic: not VLM reward design (IC1/IC2)
+backward (base paper),How Vision-Language Tasks Benefit From Large Pre-Trained Models: A Survey,,2025,MC-R1 (base),Excluded at title,"survey: considered for the reviews table, not a primary study"
+backward (base paper),Woodpecker,,2025,MC-R1 (base),Excluded at title,"post-hoc correction, no training reward (EC2)"
+backward (base paper),Towards Specific Domain Prompt Learning via Improved Text Label Optimization,,2024,MC-R1 (base),Excluded at title,off-topic: not VLM reward design (IC1/IC2)
+backward (base paper),UniAlign: A Universal Cross-Modality Knowledge Alignment Framework for Fine-Grained Action Recognition,,2025,MC-R1 (base),Excluded at title,off-topic: not VLM reward design (IC1/IC2)
+backward (base paper),GPT-4 Technical Report,,2023,MC-R1 (base),Excluded at title,"model report, no reward design (IC2)"
+backward (base paper),Gemini: A Family of Highly Capable Multimodal Models,,2023,MC-R1 (base),Excluded at title,"model report, no reward design (IC2)"
+backward (base paper),Qwen2.5-VL Technical Report,,2025,MC-R1 (base),Excluded at title,"backbone report, no reward design (IC2)"
+backward (base paper),Deep reinforcement learning from human preferences,,2017,MC-R1 (base),Excluded at title,pre-2022 or general foundational work (IC4)
+backward (base paper),Tulu 3: Pushing Frontiers in Open Language Model Post-Training,,2024,MC-R1 (base),Excluded at title,text-only LLM (EC1)
+backward (base paper),Seed1.5-VL Technical Report,,2025,MC-R1 (base),Excluded at title,"model report, no reward design (IC2)"
+backward (base paper),Enhancing the Reasoning Ability of Multimodal Large Language Models via Mixed Preference Optimization,,2024,MC-R1 (base),Potentially eligible,preference objective for multimodal reasoning; check IC2
+backward (base paper),Holistic Analysis of Hallucination in GPT-4V(ision): Bias and Interference Challenges,,2023,MC-R1 (base),Excluded at title,"evaluation of a closed model, no training reward (IC2)"
+backward (base paper),Robust Multimodal Large Language Models Against Modality Conflict,,2025,MC-R1 (base),Potentially eligible,"RL with LLM-judge reward under modality conflict (screening record R170, Uncertain)"
+backward (base paper),Reinforcement Fine-Tuning Powers Reasoning Capability of Multimodal Large Language Models,,2025,MC-R1 (base),Excluded at title,"position/survey paper, no new reward (IC2)"

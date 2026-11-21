@@ -1,0 +1,235 @@
+{
+ "trend_2026": 40,
+ "trend_2025": 23,
+ "venues": {
+  "Preprint only": 37,
+  "Author-stated venue": 15,
+  "Venue confirmed": 9,
+  "Venue via DBLP/OpenAlex": 5
+ },
+ "venue_names": {
+  "AAAI": 1,
+  "COLM": 1,
+  "ICCV": 1,
+  "ICONIP": 1,
+  "IEEE Access": 1,
+  "IJCV": 1,
+  "Springer LNCS": 2,
+  "ICLR": 3,
+  "NeurIPS": 3,
+  "ICML": 3,
+  "ACL": 4,
+  "EMNLP": 4,
+  "CVPR": 5
+ },
+ "n_preprint_novenue": 36,
+ "cells": {
+  "Perception | No extra model": 19,
+  "Answer/confidence | No extra model": 12,
+  "Reasoning text | External model": 11,
+  "Perception | External model": 8,
+  "Reasoning text | Labelled evidence": 5,
+  "Perception | Labelled evidence": 4,
+  "Diagnostic study | -": 3,
+  "Test-time PRM | -": 1
+ },
+ "top_terms": [
+  [
+   "reasoning",
+   125
+  ],
+  [
+   "RL / policy opt.",
+   103
+  ],
+  [
+   "grounding",
+   40
+  ],
+  [
+   "reward",
+   34
+  ],
+  [
+   "medical",
+   34
+  ],
+  [
+   "hallucination",
+   28
+  ],
+  [
+   "video",
+   25
+  ],
+  [
+   "agent",
+   22
+  ],
+  [
+   "process / step",
+   20
+  ],
+  [
+   "evidence",
+   19
+  ],
+  [
+   "perception",
+   18
+  ],
+  [
+   "faithfulness",
+   18
+  ]
+ ],
+ "topics": [
+  {
+   "topic": 1,
+   "terms": "reasoning, visual, reinforcement, evidence, hallucination, policy, optimization",
+   "n": 111,
+   "include_rate": 0.36936936936936937
+  },
+  {
+   "topic": 2,
+   "terms": "reasoning, visual, generation, reinforcement, grounded, optimization, preference",
+   "n": 68,
+   "include_rate": 0.25
+  },
+  {
+   "topic": 3,
+   "terms": "reasoning, fine, medical, grained, image, framework, multi",
+   "n": 65,
+   "include_rate": 0.06153846153846154
+  },
+  {
+   "topic": 4,
+   "terms": "reinforcement, reasoning, r1, video, rewards, visual, rl",
+   "n": 83,
+   "include_rate": 0.2289156626506024
+  }
+ ],
+ "lda_perplexity": {
+  "4": 200.68765193650455,
+  "5": 214.76213412521423,
+  "6": 223.53633692777126,
+  "7": 236.43104764493515,
+  "8": 245.110695978007
+ },
+ "lda_k": 4,
+ "faith_direct": 27,
+ "faith_ids": [
+  "S01",
+  "S03",
+  "S07",
+  "S08",
+  "S10",
+  "S11",
+  "S12",
+  "S16",
+  "S26",
+  "S28",
+  "S32",
+  "S33",
+  "S37",
+  "S40",
+  "S45",
+  "S48",
+  "S50",
+  "S51",
+  "S53",
+  "S54",
+  "S57",
+  "S58",
+  "S60",
+  "S62",
+  "S63",
+  "S64",
+  "S65"
+ ],
+ "bench": {
+  "MathVista": 26,
+  "MathVerse": 18,
+  "MMMU": 18,
+  "MathVision": 15,
+  "HallusionBench": 6,
+  "MMStar": 17,
+  "WeMath": 12,
+  "LogicVista": 8,
+  "POPE": 8,
+  "AMBER": 2,
+  "ChartQA": 6,
+  "RealWorldQA": 10
+ },
+ "sens": [
+  {
+   "scenario": "S0 Baseline (all 66)",
+   "n_total": 66,
+   "n_primary": 63,
+   "C1 Reasoning \u00d7 no-extra-model cell empty": "0 studies",
+   "C2 Judge-free methods exist (perception/answer)": "31 studies",
+   "C3 Text-checking rewards need labels or a judge": "16 text-checking",
+   "C4 Cost reported by \u2264 10% of studies": "4/63",
+   "C5 Faithfulness measured directly by a minority": "27/63",
+   "C6 Evidence that accuracy gains can hide ungrounded reasoning": "4 studies"
+  },
+  {
+   "scenario": "S1 Peer-reviewed venue only",
+   "n_total": 14,
+   "n_primary": 12,
+   "C1 Reasoning \u00d7 no-extra-model cell empty": "0 studies",
+   "C2 Judge-free methods exist (perception/answer)": "7 studies",
+   "C3 Text-checking rewards need labels or a judge": "4 text-checking",
+   "C4 Cost reported by \u2264 10% of studies": "0/12",
+   "C5 Faithfulness measured directly by a minority": "5/12",
+   "C6 Evidence that accuracy gains can hide ungrounded reasoning": "0 studies"
+  },
+  {
+   "scenario": "S2 Quality \u2265 75% (drop Medium)",
+   "n_total": 58,
+   "n_primary": 55,
+   "C1 Reasoning \u00d7 no-extra-model cell empty": "0 studies",
+   "C2 Judge-free methods exist (perception/answer)": "27 studies",
+   "C3 Text-checking rewards need labels or a judge": "16 text-checking",
+   "C4 Cost reported by \u2264 10% of studies": "4/55",
+   "C5 Faithfulness measured directly by a minority": "24/55",
+   "C6 Evidence that accuracy gains can hide ungrounded reasoning": "3 studies"
+  },
+  {
+   "scenario": "S3 Without OpenAlex (drop S45\u2013S66)",
+   "n_total": 44,
+   "n_primary": 41,
+   "C1 Reasoning \u00d7 no-extra-model cell empty": "0 studies",
+   "C2 Judge-free methods exist (perception/answer)": "23 studies",
+   "C3 Text-checking rewards need labels or a judge": "7 text-checking",
+   "C4 Cost reported by \u2264 10% of studies": "1/41",
+   "C5 Faithfulness measured directly by a minority": "14/41",
+   "C6 Evidence that accuracy gains can hide ungrounded reasoning": "3 studies"
+  },
+  {
+   "scenario": "S4 Without known items (S21\u2013S23)",
+   "n_total": 63,
+   "n_primary": 61,
+   "C1 Reasoning \u00d7 no-extra-model cell empty": "0 studies",
+   "C2 Judge-free methods exist (perception/answer)": "30 studies",
+   "C3 Text-checking rewards need labels or a judge": "16 text-checking",
+   "C4 Cost reported by \u2264 10% of studies": "4/61",
+   "C5 Faithfulness measured directly by a minority": "27/61",
+   "C6 Evidence that accuracy gains can hide ungrounded reasoning": "4 studies"
+  }
+ ],
+ "n": 66,
+ "n_primary": 63,
+ "code": 25,
+ "code_any": 30,
+ "limsec": 33,
+ "high": 58,
+ "medium": 8,
+ "years": {
+  "2026": 41,
+  "2025": 23,
+  "2023": 1,
+  "2024": 1
+ },
+ "qwen": 29
+}
